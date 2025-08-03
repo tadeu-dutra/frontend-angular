@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f5f5f5;
+}
+
+.footer > span {
+    color: grey;
+    font-size: 1rem !important;
+}
+
+.footer > span i {
+    font-size: 1.1rem !important;
+}
