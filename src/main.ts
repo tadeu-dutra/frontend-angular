@@ -1,12 +1,14 @@
-import {Component} from '@angular/core';
-import {bootstrapApplication} from '@angular/platform-browser';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideRouter } from '@angular/router';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideHttpClient } from '@angular/common/http';
+import { App } from './app/app'
+import { routes } from './app/app.routes';
 
-@Component({
-  selector: 'app-root',
-  template: `
-    Hello world!
-  `,
-})
-export class Playground {}
-
-bootstrapApplication(Playground);
+bootstrapApplication(App, {
+  providers: [
+    provideRouter(routes),
+    provideAnimations(),
+    provideHttpClient()
+  ]
+}).catch(err => console.error(err));
