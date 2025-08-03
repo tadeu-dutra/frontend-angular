@@ -69,7 +69,7 @@ The app will automatically reload if you change any of the source files.
 
 ## Project Structure
 
-...
+_In Progress..._
 
 ## Author
 
