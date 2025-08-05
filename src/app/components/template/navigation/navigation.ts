@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
-import { MatListModule } from '@angular/material/list';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { MaterialImports } from 'src/app/material.imports';
 
 @Component({
   selector: 'app-navigation',
-  imports: [ MatListModule, MatSidenavModule, RouterLink, RouterOutlet ],
   templateUrl: './navigation.html',
-  styleUrl: './navigation.scss'
+  styleUrl: './navigation.scss',
+  imports: [
+    RouterLink, 
+    RouterOutlet,
+    ...MaterialImports
+  ]
 })
 
 export class Navigation {

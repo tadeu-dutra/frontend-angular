@@ -1,18 +1,29 @@
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router'
+import { MaterialImports } from './../../material.imports';
+import { MovieRetrieve } from 'src/app/components/movie/movie-retrieve/movie-retrieve';
+import { HeaderService } from 'src/app/components/template/header/header.service';
 
 @Component({
   selector: 'app-movies',
-  imports: [ MatCardModule, MatButtonModule ],
   templateUrl: './movies.html',
-  styleUrl: './movies.scss'
+  styleUrl: './movies.scss',
+  imports: [
+    MovieRetrieve,
+    ...MaterialImports
+  ]
 })
 
 export class Movies {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private headerService: HeaderService) {
+
+    headerService.setHeaderData({
+      title: 'Movies',
+      icon: 'movie',
+      routerUri: ''
+    })
+  }
 
   navigateToMovieCreate() {
     this.router.navigate(['/movies/create']);

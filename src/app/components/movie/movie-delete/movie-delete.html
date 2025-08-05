@@ -1,0 +1,31 @@
+<mat-card class="card card-style">
+
+    <mat-card-title class="card-title">
+        Update Movie
+    </mat-card-title>
+
+    <form>
+        <mat-form-field appearance="fill">
+            <input matInput placeholder="Movie Title" name="title" [(ngModel)]="movie.title" disabled>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <input matInput placeholder="Year" name="year" [(ngModel)]="movie.year" disabled>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <input matInput placeholder="Genre(s)" name="genre" [(ngModel)]="movie.genre" disabled>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <input matInput placeholder="Rating" name="rating" [(ngModel)]="movie.rating" disabled>
+        </mat-form-field>
+    </form>
+
+    <div class="btn_add_item">
+        <button mat-flat-button color="warn" (click)="deleteMovie()">Remove</button>
+        <button mat-flat-button (click)="cancel()">Cancel</button>
+    </div>
+
+</mat-card>
+

@@ -16,7 +16,7 @@ The primary goal of this project was to:
 
 *   **UI Components:** Usage of Angular Material components for improved user interface and experience (e.g., Header, Footer, Nav Menu).
 *   **Styling:** Application of styles using SCSS.
-*   **Data Display:** Pages/views to display lists or details of Movies and Albums.
+*   **Data Display:** Pages/views to display lists or details of Movie Documentaries.
 *   **Data Management (Mock):** Functionality to interact with data (e.g., create, read) simulated via a local JSON server.
 *   **Routing:** Navigation on Nav Menu using Angular Router.
 

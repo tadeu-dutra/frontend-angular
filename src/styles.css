@@ -16,7 +16,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .card-title {
-  background-color: #f5f5f5;
   font-size: 1.3rem;
   margin-bottom: 10px;
   line-height: 1.2;
@@ -33,4 +32,45 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn_add_item {
   display: flex;
   justify-content: flex-end;
+}
+
+button {
+  margin: 5px 10px 0 0;
+}
+
+.snack-message-success {
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+.snack-message-error {
+  background-color: #f33d3d;
+  color: #FFFFFF;
+}
+
+.snack-message-error button {
+  color: #ffffffe6;
+}
+
+.content-container {
+  color: #45a049;
+}
+
+::ng-deep .mat-raised-button.mat-primary {
+  background-color: #1976d2;
+  color: white;
+}
+
+.confirm-dialog-container #no-button {
+    height: 50px;
+    width: 45%;
+    background-color: #fc7169;
+    color: #FFF;
+}
+
+.confirm-dialog-container #yes-button {
+    height: 50px;
+    width: 45%;
+    background-color: #6b94e5ff;
+    color: #FFF;
 }

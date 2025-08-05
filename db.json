@@ -1,72 +1,25 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "title": "Metallica: Through the Never",
-        "releaseYear": 2013,
-        "genre": "Concert, Sci-Fi",
-        "rating": 4
-      },
-      {
-        "id": 2,
-        "title": "Iron Maiden: Flight 666",
-        "releaseYear": 2009,
-        "genre": "Documentary, Music",
-        "rating": 5
-      },
-      {
-        "id": 3,
-        "title": "Ozzy Osbourne: God Bless Ozzy Osbourne",
-        "releaseYear": 2011,
-        "genre": "Documentary, Music",
-        "rating": 4
-      },
-      {
-        "id": 4,
-        "title": "Lemmy",
-        "releaseYear": 2010,
-        "genre": "Documentary, Music",
-        "rating": 5
-      },
-      {
-        "id": 5,
-        "title": "Rush: Beyond the Lighted Stage",
-        "releaseYear": 2010,
-        "genre": "Documentary, Music",
-        "rating": 5
-      }
-    ],
-    "albums": [
-      {
-        "id": 1,
-        "title": "Paranoid - Black Sabbath",
-        "genres": "Heavy Metal",
-        "year": "1970"
-      },
-      {
-        "id": 2,
-        "title": "Master of Puppets - Metallica",
-        "genres": "Thrash Metal",
-        "year": "1986"
-      },
-      {
-        "id": 3,
-        "title": "Iron Maiden - Iron Maiden",
-        "genres": "Heavy Metal",
-        "year": "1980"
-      },
-      {
-        "id": 4,
-        "title": "Ace of Spades - Motörhead",
-        "genres": "Heavy Metal",
-        "year": "1980"
-      },
-      {
-        "id": 5,
-        "title": "British Steel - Judas Priest",
-        "genres": "Heavy Metal",
-        "year": "1980"
-      }
-    ]
-  }
-  
+  "movies": [
+    {
+      "id": "1",
+      "title": "Ozzy Osbourne: God Bless Ozzy Osbourne",
+      "year": 2011,
+      "genre": "Documentary, Music",
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "title": "Randy Rhoads: Reflections of a Guitar Icon",
+      "year": 2022,
+      "genre": "Documentary, Music",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "title": "Rush: Beyond the Lighted Stage",
+      "year": 2010,
+      "genre": "Documentary, Music",
+      "rating": 5
+    }
+  ]
+}
