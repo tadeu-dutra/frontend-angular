@@ -1,7 +1,11 @@
 {
-  "name": "movies-angular-json-server-api",
+  "name": "movies-json-server-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSON Server API Deployed to Vercel",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
   "keywords": [],
   "author": "Tadeu Augusto Dutra Pinto",
   "license": "ISC",
