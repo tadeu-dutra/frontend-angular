@@ -12,12 +12,14 @@ if (pkg.version !== requiredVersion) {
 console.log(`✅ json-server version ${pkg.version} detected — all good!`);
 
 import jsonServer from 'json-server';
+import data from './../db.json' assert { type: 'json' };
 const server = jsonServer.create();
-const router = jsonServer.router('./../db.json');
+// const router = jsonServer.router('./../db.json');
+const router = jsonServer.router(data);
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.use(router);
+// server.use(router);
 server.listen(3000, () => {
   console.log('JSON Server is running on port 3000');
 });
