@@ -1,13 +1,9 @@
 {
-  "name": "json-server-api",
+  "name": "movies-angular-json-server-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Tadeu Augusto Dutra Pinto",
   "license": "ISC",
   "type": "module",
   "dependencies": {
