@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router'
-import { MaterialImports } from './../../material.imports';
+import { MaterialImports } from '../../material.imports';
 import { MovieRetrieve } from 'src/app/components/movie/movie-retrieve/movie-retrieve';
 import { HeaderService } from 'src/app/components/template/header/header.service';
 
