@@ -12,7 +12,7 @@ if (pkg.version !== requiredVersion) {
 console.log(`✅ json-server version ${pkg.version} detected — all good!`);
 
 import jsonServer from 'json-server';
-import data from './../db.json' assert { type: 'json' };
+import data from './../db.json' with { type: 'json' };
 const server = jsonServer.create();
 // const router = jsonServer.router('./../db.json');
 const router = jsonServer.router(data);
