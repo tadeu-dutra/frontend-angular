@@ -23,4 +23,4 @@ server.use(router);
 // });
 
 // making the api vercel ready
-module.exports = server;
+export default server;
