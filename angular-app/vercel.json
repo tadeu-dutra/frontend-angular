@@ -1,10 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "dist/angular-app/**",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
