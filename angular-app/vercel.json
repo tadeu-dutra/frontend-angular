@@ -6,6 +6,6 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "dist/angular-app/browser/index.html" }
   ]
 }
