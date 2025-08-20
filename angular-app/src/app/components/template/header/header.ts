@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { MaterialImports } from 'src/app/material.imports';
 import { HeaderService } from './header.service';
 import { HeaderData } from './header-data.model';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.html',
   styleUrl: './header.scss',
-  imports: [ ...MaterialImports ]
+  imports: [MatToolbarModule]
 })
 
 export class Header {

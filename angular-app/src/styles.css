@@ -1,18 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+html,
 body {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 .red {
-  color: red
+  color: red;
 }
 
 .vertical-middle {
   vertical-align: middle;
-  
 }
 
 .card-title {
@@ -40,20 +46,16 @@ button {
 
 .snack-message-success {
   background-color: #000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .snack-message-error {
   background-color: #f33d3d;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .snack-message-error button {
   color: #ffffffe6;
-}
-
-.content-container {
-  color: #45a049;
 }
 
 ::ng-deep .mat-raised-button.mat-primary {
@@ -62,18 +64,17 @@ button {
 }
 
 .confirm-dialog-container #no-button {
-    height: 50px;
-    width: 45%;
-    background-color: #fc7169;
-    color: #FFF;
+  height: 50px;
+  width: 45%;
+  background-color: #fc7169;
+  color: #fff;
 }
 
 .confirm-dialog-container #yes-button {
-    height: 50px;
-    width: 45%;
-    background-color: #6b94e5ff;
-    color: #FFF;
+  height: 50px;
+  width: 45%;
+  background-color: #6b94e5ff;
+  color: #fff;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
