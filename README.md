@@ -1,6 +1,6 @@
 # Angular Study Project
 
-This repository contains a front-end application developed with Angular. It serves as an assessment project for a postgraduate course module on Front-End with HTML CSS, Javascript and Angular.
+This project is an Angular-based web application structured with reusable components, services, and views. It serves as an assessment project for a postgraduate course module on Front-End with HTML CSS, Javascript and Angular.
 
 ## Purpose
 
@@ -69,7 +69,44 @@ The app will automatically reload if you change any of the source files.
 
 ## Project Structure
 
-_In Progress..._
+SRC
+│
+├── index.html           # Entry point
+├── main.ts              # Bootstraps Angular app
+├── styles.css           # Global styles
+├── custom-theme.scss    # Theme customization
+│
+├── app                  # Core Angular application
+│   ├── app.html
+│   ├── app.ts
+│   ├── app.routes.ts
+│   ├── app.config.ts
+│   ├── material.imports.ts
+│   ├── shared.imports.ts
+│   │
+│   ├── components
+│   │   ├── movie
+│   │   │   ├── movie.model.ts
+│   │   │   ├── movie.service.ts
+│   │   │   ├── movie-create / delete / retrieve / update
+│   │   │
+│   │   ├── shared (dialog, shared services)
+│   │   └── template (header, footer, navigation)
+│   │
+│   └── views
+│       ├── home
+│       └── movies
+│
+├── assets               # Static files (images, icons)
+└── environments         # Environment configurations
+
+## Key Folders
+
+    app/: Main application logic (modules, routing, configs)
+    components/: UI components (CRUD for movies, shared dialogs, templates)
+    views/: Page-level components (home, movies)
+    services/: Business logic and data handling
+    environments/: Environment-specific configs
 
 ## Author
 
